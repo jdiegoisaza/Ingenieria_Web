@@ -224,6 +224,10 @@ section {
     margin-top: 40px;
 }
 
+.mart-5 {
+    margin-top: 5px;
+}
+
 .comp2 {
     height: 90px;
     display: flex;
@@ -273,4 +277,87 @@ section {
     font-size: 13px;
     line-height: 15px;
     color: #3483FA;
+}
+
+.comp3 {
+    margin-top: 10px;
+    height: 460px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ofertas {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    gap: 16px;
+    align-items: center;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+}
+
+.ofertas-txt {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 25px;
+    line-height: 31px;
+
+    color: #666666;
+    margin-right: 16px;
+}
+
+.ofertas-txt2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 19px;
+
+    color: #3483FA;
+}
+
+.card-ofertas {
+    width: 224px;
+    height: 350px;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.oferta-precio {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 24px;
+    color: #333333;
+    margin-right: 10px;
+}
+.oferta-descuento{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;    
+    color: #00A650;
+}
+.oferta-envio{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 16px;
+    color: #00A650;
+    margin-right: 2px;
+    
+}
+
+.ofertas-margin{
+    margin: 19px 10px 0px 16px;
 }
