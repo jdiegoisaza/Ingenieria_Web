@@ -339,15 +339,17 @@ section {
     color: #333333;
     margin-right: 10px;
 }
-.oferta-descuento{
+
+.oferta-descuento {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: 16px;    
+    line-height: 16px;
     color: #00A650;
 }
-.oferta-envio{
+
+.oferta-envio {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 600;
@@ -355,9 +357,165 @@ section {
     line-height: 16px;
     color: #00A650;
     margin-right: 2px;
-    
+
 }
 
-.ofertas-margin{
+.ofertas-margin {
     margin: 19px 10px 0px 16px;
+}
+
+.comp-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.comp-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.wid-1200 {
+    width: 1200px;
+}
+
+.heith-340 {
+    height: 340px;
+}
+
+.comp4 {
+    display: flex;
+    flex-direction: column;
+    width: 1200px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.1);
+    border-radius: 6px;
+    justify-content: space-between;
+}
+
+.sus-1 {
+    height: 87px;
+    left: 0px;
+    top: 0px;
+    background: linear-gradient(90deg, #A90F90 55%, #0C1A51 100%);
+    display: flex;
+    align-items: center;
+    padding: 0 94px 0 24px;
+    justify-content: space-between;
+}
+
+.sus-2 {
+    height: 81px;
+    background: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding: 0 94px 0 24px;
+    border-top: 1px solid #EDEDED;
+}
+
+.sus-text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+
+.sus-borl {
+    border-left: 2px solid #FFFFFF;
+    padding-left: 6px;
+    color: #FFFFFF;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 14px;
+}
+
+.sus-text-l {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.sus-text-2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 48px;
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.heith-172 {
+    height: 172px;
+    padding: 24px;
+}
+
+.card-sus {
+
+    width: 377.33px;
+    height: 74px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: row;
+
+}
+
+.sus-ben {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 18px;
+    color: #000000;
+    margin: 24px;
+}
+
+.text-suscribe {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 16px;
+    color: #000000;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    width: 240.39px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+}
+
+.suscribir {
+    width: 1184px;
+    height: 154px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    background: #FFFFFF;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+
+}
+
+.sus-but {
+    width: 123.72px;
+    height: 48px;
+
+    background: #3483FA;
+    border-radius: 6px;
 }
