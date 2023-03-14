@@ -519,3 +519,68 @@ section {
     background: #3483FA;
     border-radius: 6px;
 }
+
+.card-ben {
+    width: 384px;
+    height: 250px;
+    border-radius: 6px;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+
+}
+
+.card-ben-down {
+    height: 50%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: row;
+    color: #FFFFFF;
+
+}
+
+.bg1 {
+    background: url(src/Widget_Multicontent_Latam_768-x-566px.jpg.png);
+}
+
+.bg2 {
+    background: url(src/HBOMax_widgetmulti_mobdsk_mco_@2x.webp.png);
+}
+
+.bg3 {
+    background: url(src/paramount_widgetmulti_mobdsk_mco_@2x.jpg.png);
+}
+
+.ben-png {
+    width: 80px;
+    height: 80px;
+    border-radius: 6px;
+    margin: 16px;
+}
+
+.text-ben {
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 22px;
+line-height: 24px;
+color: #FFFFFF;
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.text-ben2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 20px;
+    letter-spacing: 0.4px;
+    color: #FFFFFF;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
