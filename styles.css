@@ -666,29 +666,25 @@ section {
     flex-direction: column;
     align-items: center;
     position: relative;
- 
- 
- 
- 
- }
- 
- 
- .card-tiendas-down {
+}
+
+
+.card-tiendas-down {
     display: flex;
     flex-direction: column;
     align-items: center;
     height: 100%;
- }
- 
- 
- .tiendas-logo {
+}
+
+
+.tiendas-logo {
     left: calc(50% - 80px/2);
     top: 55px;
     position: absolute;
- }
- 
- 
- .tiendas-titulo {
+}
+
+
+.tiendas-titulo {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 600;
@@ -696,26 +692,134 @@ section {
     line-height: 28px;
     color: #333333;
     margin: 56px 0 20px 0;
- }
- 
- 
- .tiendas-imgs {
+}
+
+
+.tiendas-imgs {
     box-sizing: border-box;
     width: 70px;
     height: 70px;
     top: 3px;
     border: 1px solid #EEEEEE;
     border-radius: 8px;
- }
- .tiendas-link{
+}
+
+.tiendas-link {
     margin-top: 22px;
     font-family: 'Roboto';
- font-style: normal;
- font-weight: 600;
- font-size: 15px;
- line-height: 18px;
- color: #999999;
- 
- 
- }
- 
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    color: #999999;
+
+
+}
+
+.colec {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 26px;
+    line-height: 26px;
+    color: #666666;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.colec2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 26px;
+    color: #666666;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.card-colecciones {
+    width: 384px;
+    height: 384px;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.colecciones {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    gap: 8px;
+    align-items: center;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+}
+
+.card-colec {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.colec-main-img {
+    width: 383px;
+    height: 281px;
+
+}
+
+.comp-column-colec {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0 20px 25px;
+    height: 100%;
+    justify-content: space-between;
+}
+
+.colec-main-txt {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: #4B4B4B;
+}
+
+.colec-main-txt2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 33px;
+    text-transform: uppercase;
+    color: #4B4B4B;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.grid-container {
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 10px;
+    padding: 10px;
+  }
+  
+  .card {
+    background-color: #eee;
+    padding: 20px;
+  }
+   .hwfull {
+    height: 100%;
+    width: 100%;}
